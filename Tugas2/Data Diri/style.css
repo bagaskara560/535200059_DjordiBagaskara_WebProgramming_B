@@ -1,0 +1,77 @@
+
+body{
+    background-image:url(images/full_moon_red_moon_moon_136510_1920x1080.jpg); background-size:100%
+}
+img.foto{
+    float: right;
+    margin-right: 5%;
+    margin-top: 13%;
+	box-shadow: 0 0 0 5px #0019f3,
+				0 0 0 10px #774cf0,
+				0 0 0 25px #ec8600;
+}
+.nama{
+	color: #fff;
+	font-size: 200%;
+}
+.tempat{
+	color: #fff;
+	font-size: 200%;
+}
+.judul{
+	color: #fff;
+	margin-left: 40%;
+	font-size: 200%;
+}
+.tanggal{
+	color: #fff;
+	font-size: 200%;
+}
+.formal{
+	color:#fff;
+	font-size: 200%;
+	margin-left: 28%;
+}
+.sd{
+	color: #fff;
+	font-size: 150%;
+}
+.smp{
+	color: #ffffff;
+	font-size: 150%;
+}
+.sma{
+	color: #fff;
+	font-size: 150%;
+}
+.jk{
+	color: white;
+	font-size: 200%;
+}
+.agama{
+	color: white;
+	font-size: 200%;
+}
+.negara{
+	color: white;
+	font-size: 200%;
+}
+img.fotosd{
+	margin-left: 3%;
+	box-shadow: 0 0 0 5px #f30000,
+				0 0 0 10px #fffb00,
+				0 0 0 25px #51ff00;
+}
+img.fotosmp{
+	margin-left: 3%;
+	box-shadow: 0 0 0 5px #f30000,
+				0 0 0 10px #fffb00,
+				0 0 0 25px #51ff00;
+}
+img.fotosma{
+	margin-left: 3%;
+	box-shadow: 0 0 0 5px #f30000,
+				0 0 0 10px #fffb00,
+				0 0 0 25px #51ff00;
+	margin-bottom: 3%;
+}
