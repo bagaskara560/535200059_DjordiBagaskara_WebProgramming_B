@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mendapatkan elemen pertama pada child</title>
+</head>
+<body>
+    <ul id="menu">
+        <li class="first">Home</li>
+        <li>Products</li>
+        <li class="current">Customer Support</li>
+        <li>Careers</li>
+        <li>Investors</li>
+        <li>News</li>
+        <li class="last">About Us</li>
+    </ul>
+    <!-- FIRST -->
+   <!--Pada console log menunjukkan karakter #text Karena  node teks yang disisipkan untuk menjaga whitespace antara tag pembuka <ul> dan <li>. whitespace ini membuat sebuah #text node.--> 
+   <script>
+        let content = document.getElementById('menu');
+        let firstChild = content.firstChild.nodeName;
+        console.log(firstChild);
+    </script>
+<!--Untuk mendapatkan first child dengan element only kita dapat menggunakan properti firstElementChild-->
+    <script>
+    let content = document.getElementById('menu');
+    let firstChild = content.firstElementChild;
+    console.log(firstChild);
+    </script>
+
+    <!--LAST-->
+    <script>
+        let parentElement = document.getElementById('menu');
+        let lastChild = parentElement.lastChild;
+        console.log(lastChild);
+    </script>
+    <!--Untuk mendapatkan last child dengan element only kita dapat menggunakan properti lastElementChild-->
+    <script>
+        let parentElement = document.getElementById('menu');
+        let lastChild = parentElement.lastElementChild;
+        console.log(lastChild);
+    </script>
+
+    <!--CHILD-->
+    <!---Mendapatkan seluruh elemen child.-->
+    <script>
+        let parentElement = document.getElementById('menu');
+        let children = parentElement.childNodes;
+        console.log(children);
+    </script>
+
+    </body>
+</html>
